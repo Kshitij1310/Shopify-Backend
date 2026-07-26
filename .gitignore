@@ -1,0 +1,35 @@
+# Maven build output
+/target
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+
+# Runtime user uploads (not source)
+/uploads
+
+# Archives / backups
+*.zip
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE
+/.idea
+*.iml
+/.junie
+/nbproject
+.settings/
+.classpath
+.project
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
